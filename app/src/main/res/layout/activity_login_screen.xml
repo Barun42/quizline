@@ -16,6 +16,7 @@
         android:inputType="text"
         android:maxLength="20"
         android:maxLines="1"
+        android:text="TEST01"
         android:paddingLeft="@dimen/dimen_10"
         android:background="@drawable/edittext_border"
         android:textSize="@dimen/textsize_22"/>
@@ -27,6 +28,7 @@
         android:layout_height="@dimen/dimen_60"
         android:background="@drawable/edittext_border"
         android:hint="@string/password"
+        android:text="TEST"
         android:inputType="textPassword"
         android:maxLines="1"
         android:paddingLeft="@dimen/dimen_10"

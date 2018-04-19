@@ -22,21 +22,24 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 
 /**
  * Created by decimal on 29/3/18.
  */
 
 public class ResultScreen extends AppCompatActivity  {
-    
+
     @BindView(R.id.txt_score) TextView txtScore;
+    @BindView(R.id.tvStatus) TextView tvStatus;
     Context context;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
         context = ResultScreen.this;
-        
+
+        ButterKnife.bind(this);
         getScore();
     }
 
@@ -68,7 +71,12 @@ public class ResultScreen extends AppCompatActivity  {
                 String SCORE = jArray.optJSONObject(0).optString("SCORE");
                 String STATUS = jArray.optJSONObject(0).optString("STATUS");
 
-                txtScore.setText(SCORE);
+                try {
+                    tvStatus.setText(STATUS);
+                    txtScore.setText("Score: " + SCORE);
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
 
             }
         }, new Response.ErrorListener() {

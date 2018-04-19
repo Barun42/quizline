@@ -12,6 +12,15 @@
         android:gravity="center">
 
 
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            android:textSize="@dimen/dimen_60"
+            android:padding="@dimen/dimen_20"
+            android:layout_gravity="center"/>
+
     <TextView
         android:id="@+id/txt_score"
         android:layout_width="wrap_content"

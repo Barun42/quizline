@@ -30,43 +30,39 @@
 
 
 
-        <RadioButton
+        <Button
             android:id="@+id/txt_option1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/dimen_10"
-            android:text="Answer Option1"
-            android:onClick="onRadioButtonClicked"
+            android:text=""
             android:layout_margin="@dimen/dimen_10"
             />
 
-        <RadioButton
+        <Button
             android:id="@+id/txt_option2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/dimen_10"
-            android:text="Answer Option2"
-            android:onClick="onRadioButtonClicked"
+            android:text=""
             android:layout_margin="@dimen/dimen_10"
             />
 
-        <RadioButton
+        <Button
             android:id="@+id/txt_option3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/dimen_10"
-            android:text="Answer Option3"
-            android:onClick="onRadioButtonClicked"
+            android:text=""
             android:layout_margin="@dimen/dimen_10"
             />
 
-        <RadioButton
+        <Button
             android:id="@+id/txt_option4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/dimen_10"
-            android:text="Answer Option4"
-            android:onClick="onRadioButtonClicked"
+            android:text=""
             android:layout_margin="@dimen/dimen_10"
             />
     </RadioGroup>
@@ -82,6 +78,7 @@
             android:id="@+id/btn_continue"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
+            android:visibility="gone"
             android:text="Continue"/>
 
         </RelativeLayout>

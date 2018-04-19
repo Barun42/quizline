@@ -36,7 +36,6 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/dimen_10"
                     android:text="Answer Option1"
-                    android:onClick="onRadioButtonClicked"
                     android:layout_margin="@dimen/dimen_10"
                     />
 
@@ -46,7 +45,6 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/dimen_10"
                     android:text="Answer Option2"
-                    android:onClick="onRadioButtonClicked"
                     android:layout_margin="@dimen/dimen_10"
                     />
 
@@ -56,7 +54,6 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/dimen_10"
                     android:text="Answer Option3"
-                    android:onClick="onRadioButtonClicked"
                     android:layout_margin="@dimen/dimen_10"
                     />
 
@@ -66,7 +63,6 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="@dimen/dimen_10"
                     android:text="Answer Option4"
-                    android:onClick="onRadioButtonClicked"
                     android:layout_margin="@dimen/dimen_10"
                     />
             </RadioGroup>

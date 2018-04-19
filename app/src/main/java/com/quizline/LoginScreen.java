@@ -102,7 +102,8 @@ public class LoginScreen extends AppCompatActivity {
                 String RESPONSE_TYPE = jArray.optJSONObject(0).optString("RESPONSE_TYPE");
                 String RESPONSE_MESSAGE = jArray.optJSONObject(0).optString("RESPONSE_MESSAGE");
                 if (RESPONSE_TYPE.equalsIgnoreCase("Y")) {
-                    Intent intent = new Intent(context, QuestionScreen.class);
+//                    Intent intent = new Intent(context, QuestionScreen.class);
+                    Intent intent = new Intent(context, QuestionScreenNew.class);
                     startActivity(intent);
                 }else{
                     CommonClass.showToast(context,RESPONSE_MESSAGE);
