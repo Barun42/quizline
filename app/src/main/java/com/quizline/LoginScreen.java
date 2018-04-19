@@ -43,6 +43,7 @@ public class LoginScreen extends AppCompatActivity {
     @BindView(R.id.et_password_login)  EditText etPasswordLogin;
     @BindView(R.id.btn_login)  Button btn_login;
     private String number,password;
+
     private Context context;
     public String TAG = LoginScreen.class
             .getSimpleName();
