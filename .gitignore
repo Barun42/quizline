@@ -4,6 +4,9 @@ local.properties
 quizline.iml
 .idea/
 gradlew.bat
+.gradle/
+app/app.iml
+.idea/workspace.xml
 build/android-profile/profile-2018-03-29-23-39-51-708.json
 build/android-profile/profile-2018-03-29-23-39-51-708.rawproto
 build/android-profile/profile-2018-03-29-23-51-51-235.json
